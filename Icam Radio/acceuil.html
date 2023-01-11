@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Icam radio</title>
+        <link href="./Style/acceuil.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <p style="
+                margin-top: 0px;
+                margin-bottom: 0px;">
+                <img src="./Ressource/Logo icam Radio.jpg" alt="c'est le logo de icam radio" id="logo" />
+            </p>
+        </header>
+        <nav style="
+        margin-top: 0px;
+        margin-left: 0px;"
+    >
+            <a href="acceuil.html">Accueil</a>
+            <a href="PagePodcast.html">Podcast</a>
+            <a href="Formes.html">Sondages</a>
+            <a href="Chronomètre.html">Comptes</a>
+          </nav>
+        <h1>Icam Radio </h1>
+
+        <h2>Présentation</h2>
+
+        <p>Bienvenue sur notre site de Icam radio ! <br/>
+            Nous sommes heureux de vous offrir une variété de programmes et de musiques pour tous les goûts. 
+            Que vous cherchiez de la musique pop, rock, hip-hop, jazz, classique ou encore des émissions de talk-show, 
+            de sport ou de culture, nous avons quelque chose pour vous. <br/> <br/> 
+            Restez à l'écoute pour découvrir nos nouvelles émissions et suivez-nous sur les réseaux sociaux pour être informé 
+            de nos événements en direct. Nous espérons que vous apprécierez votre expérience sur notre site et n'hésitez pas à 
+            nous faire part de vos commentaires et suggestions dans la partie sondage qui se trouve en haut de cette page!
+        </p>
+
+        <h2>De la Radio?</h2>
+
+        <p>Oui, nous allons faire de la <strong>RADIO</strong>!<br/>
+        La radio ce n'est pas interressante dites vous?<br/>
+        Pas la notre. Nous voyons cela comme une discussion entre potes. nous disons des conneries et sommes sérieux quand il le faut.<br/>
+        Actualité de l'école, de Strasbourg ou encore de musique, tous le monde peut venir nous écouter.<br/>
+        Si vous hésitez encore, dites vous que de nombreux guest sont prévus en interview!<br/>
+        Alors venez nous écouter!</p>
+
+         <h3>Nos membres</h3>
+
+         <p>Voici nos délicieux membres travaillants aujourd'hui dans notre projet.</p>
+
+         <div class="container">
+            <div class="box">
+                <img src="photo_hugo.JPG" alt="c'est le président" id="hugo" />
+                <img src="Logo icam Radio.jpg" alt="logo" class="hover-img" />
+            </div>
+            <div class="box">
+                <img src="photo_hugo.JPG" alt="c'est le président" id="hugo" />
+                <img src="Logo icam Radio.jpg" alt="logo" class="hover-img" />
+            </div>
+            <div class="box">
+                <img src="photo_hugo.JPG" alt="c'est le président" id="hugo" />
+                <img src="Logo icam Radio.jpg" alt="logo" class="hover-img" />
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="box">
+                <img src="photo_hugo.JPG" alt="c'est le président" id="hugo" />
+                <img src="Logo icam Radio.jpg" alt="logo" class="hover-img" />
+            </div>
+            <div class="box">
+                <img src="photo_hugo.JPG" alt="c'est le président" id="hugo" />
+                <img src="Logo icam Radio.jpg" alt="logo" class="hover-img" />
+            </div>
+            <div class="box">
+                <img src="photo_hugo.JPG" alt="c'est le président" id="hugo" />
+                <img src="Logo icam Radio.jpg" alt="logo" class="hover-img" />
+            </div>
+         </div>
+
+         <h3>Comptes à rebours pour le prochain Live!</h3>
+
+    </p>
+
+        <Timer style="
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;">
+        <style>
+            #countdown {
+                font-size: 50px;
+                font-weight: bold;
+                text-align:center;
+                color: #fff;
+                background-color: #333;
+                border-radius: 10px;
+                padding:20px;
+            }
+        </style>
+        <div id="countdown">00:00:00</div>
+
+        <script>
+        let countdown = document.querySelector('#countdown');
+        let seconds = 20;
+        let minutes = 0;
+        let hours = 0;
+        let day = 1;
+
+        setInterval(function() {
+        seconds--;
+        if (seconds < 0) {
+            seconds = 59;
+            minutes--;
+        }
+        if (minutes < 0) {
+            minutes = 59;
+            hours--;
+        }
+        if (hours < 0) {
+            hours = 23;
+            day--;
+        }
+        if (day < 0) {
+            day = 0;
+            minutes = 0;
+            seconds = 0;
+        }
+
+        countdown.innerHTML = (day ? (day > 9 ? day : "0" + day) : "00") + ":" + (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
+        }, 1000);
+        </script>
+        </Timer>
+        <P>Nos podcasts sont créés avec Rigueur et passion. Chaque épisode est soigneusement préparé et produit avec le plus grand soin,
+             afin de offrir une expérience de qualité à nos auditeurs. 
+             Nous croyons que la passion est l'ingrédient essentiel à la création de quelque chose de vraiment significatif et de durable, 
+             et cela se reflète dans chaque aspect de notre travail. Nous espérons que vous apprécierez nos podcasts et que vous vous sentirez 
+             connecté à ce que nous vous avons à raconter.</P>
+        <p>Si vous voulez écouter les podcasts que nous avons déja créé, rendez-vous sur la page <a href="Icam radio page 2.html">Podcast</a></p>
+    </body>
+    <footer class="w3-center w3-black w3-padding-48 w3-xlarge">
+        <p>Retrouvez nos réseaux ici : </p>
+        <p>Toute l'actualité sur notre page </p>
+        <a href="https://www.youtube.com/@icamradio" target="_blanck">
+            <div class="footer instagram">Instagram</div>
+        </a>
+        <a>
+            <div class="footer twitch"></div>
+        </a>
+        <p> Tous nos podcasts également sur la chaine </p>
+        <a href="https://www.youtube.com/@icamradio" target="_blanck">
+            <div class="footer youtube">IcamRadio Youtube</div>
+        </a>
+        <p>Et biensur il y a toujours les QrCodes dans l'école</p>            
+    </footer>
+</html>

@@ -1,0 +1,53 @@
+body, html {height: 100%}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+aside,footer,header,main,menu,nav,section{display:block}
+html,body{font-family:"Bahnschrift Light",sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+
+
+
+/* TITRES + PARAGRAPHES */
+.h1{font-size:64px!important; font-family:"Bahnschrift Light",sans-serif; color:rgb(67, 0, 0); text-align: center;}
+.h2{font-size:48px!important; font-family:"Bahnschrift Light",sans-serif; color:rgb(67, 0, 0); text-align: center;}
+.h3{font-size:48px!important; font-family:"Bahnschrift Light",sans-serif; color:rgb(67, 0, 0); text-align: center;}
+.h4{font-size:36px!important; font-weight: bold; font-family:"Bahnschrift Light",sans-serif; color:rgb(67, 0, 0); text-align: center;}
+.textarea{padding: 12px; font-size: 24px!important; text-align: center; color:white; margin: 10px; background-color: rgb(255, 98, 0); border-radius: 15px;}
+.textarea2{font-size:24px!important; font-weight: bold; text-align: center; color:rgb(67, 0, 0); padding: 10px; border-radius: 15px; opacity: 10;}
+.textearea3{font-size: 24px; text-align: center; color:white; margin: 20px;}
+
+
+/* HEADER */
+.headerclass {background-repeat: no-repeat; background-size: cover; background-color:rgb(253, 207, 179); min-height: 90%; font-family:"Bahnschrift Light",sans-serif}
+.w3-display-container:hover .w3-display-hover{display:block}
+.w3-display-container:hover span .w3-display-hover{display:inline-block}
+.w3-display-hover{display:none}
+
+.headerclass2{padding-top:150px!important; display:inline-block; width:auto; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%)}
+
+/* .logo{float: left; width:10%; height: auto} */
+
+/* ONGLETS */
+.button{position:fixed; width:100%; z-index:1; top:0}
+.button2{color:#fff!important; font-size:30px!important; background-color:#000!important; opacity:0.60; width:100%;overflow:hidden}
+.w3-hover-opacity-off:hover{opacity:1}
+.button2 .w3-dropdown-hover,.button2 .w3-dropdown-click{position:static; float:left}
+::after
+.button3{border:none; display:inline-block; padding:8px 16px; vertical-align:middle; overflow:hidden; text-decoration:none; color:inherit; background-color:inherit; text-align:left; cursor:pointer; white-space:nowrap}
+.button3{-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none}   
+.button3:disabled{cursor:not-allowed; opacity:0.3}
+.button3:hover{color:#000!important; background-color:#ccc!important}
+.button2 .button3{white-space:normal; padding:8px 16px; float:left; width:auto; border:none; display:block; outline:0}
+
+/* DECO-TRANSITION */
+.transition{height:15%; background-color:rgb(255, 98, 0)!important; font-family:"Bahnschrift Light",sans-serif}
+
+/* BODY */
+.mainclass{display:block; width: 100%; background-color: rgb(253, 207, 179);padding-top:64px!important;padding-bottom:64px!important}
+.podcast{border:5px  rgb(86, 50, 9)  solid; margin: 50px; background-color: rgb(253, 207, 179); border-radius: 15px}
+.affiche{text-align: center; border-radius: 15px;}
+audio{display:inline-block; background-color: black; border-radius: 15px;}
+audio:not([controls]){display:none; height:0}[hidden]
+
+/* FOOTER */
+/* .body .footer{display:inline-block; width:auto; text-align: center; width: 100%; color:#fff!important;background-color:#000!important; padding-top:48px!important; padding-bottom:48px!important}
+.footerclass{display:block; width:auto; text-align: center; width: 100%; background-color: black!important; padding-top:48px!important; padding-bottom:48px!important} */

@@ -1,0 +1,107 @@
+h1 {
+    color: rgb(244, 121, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 10px;
+}
+h2, h3 {
+    color: rgb(255, 162, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 10px;
+}
+nav{
+    margin: 30px;
+
+}
+p {
+    color: white;
+    font-size: 1.5em;
+    margin: 30px;
+}
+
+header {
+    background: linear-gradient(to right, rgb(255, 255, 255),85%, rgb(244, 121, 14));
+
+}
+nav  a{ 
+    float: left; 
+    text-decoration: none; 
+    color: #070707;
+    background: #dfdfdf; 
+    height: 40px; 
+    line-height: 40px; 
+    padding: 0 20px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.1em; 
+    transition: .5s; 
+    }
+    nav  a:hover{ 
+    background: #e0570e;
+    }
+#logo {
+    width : 200px;
+    height : 200px;
+}
+body{
+    background: linear-gradient(white, black );
+    margin: 0px;
+}
+
+li{
+    color: white;
+}
+img:hover{
+    opacity:0.5;
+
+}
+a {
+    color: #fff;
+    background-color: #333;
+    transition: all 1s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #333;
+    background-color: #fff;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 310px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.box img{
+    width: 100%;
+    transition: all linear 0.7s;
+}
+img.hover-img{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+}
+.box:hover img{
+    opacity:0;
+}
+.box:hover img.hover-img{
+    opacity: 1;
+}
+
+/* FOOTER */
+.footer{display:inline-block; width:auto; text-align: center; width: 100%; color:#fff!important;background-color:rgb(64, 63, 63)!important; padding-top:48px!important; padding-bottom:48px!important}
+.footerclass{display:block; width:auto; text-align: center; width: 100%; background-color: rgb(55, 54, 54)!important; padding-top:48px!important; padding-bottom:48px!important} 
